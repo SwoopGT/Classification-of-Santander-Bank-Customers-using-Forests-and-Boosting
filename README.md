@@ -9,4 +9,4 @@ Two approaches are implemented:-
 
 Machine Learning Classification Algorithms such as Random Forest and XG Boost are used.
 
-The models developed are subjected to hyperparameter tuning using Randomized Search and the results are obtained.
+The models developed are subjected to hyperparameter tuning using Randomized Search Cross Validation and the results are obtained.
