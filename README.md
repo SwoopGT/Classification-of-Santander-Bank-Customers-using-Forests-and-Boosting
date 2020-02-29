@@ -8,7 +8,6 @@ For any consumer focused business there broadly exist two types of consumer mind
 The bank provided a large dataset consisting of about 76 thousand rows and 371 features. The expected outcome was a model capable of predicting dissatisfied customers early in the process so that necessary steps can be taken before it was pretty late.
 
 </br>
-
 ## 2. Business Problem 
 
 The main question is- If the organization was to reduce the means by which customers are affected or left dissatisfied – What can be done for such a situation? Can early prediction of such a customer be possible? What measures can be taken to retain the customer?
@@ -16,25 +15,21 @@ The main question is- If the organization was to reduce the means by which custo
 This report aims to put forward an analysis of prediction of customer satisfaction using machine learning algorithms such as Random Forest and Gradient Boosting.
 
 </br>
-
 ## 3. People interested in the Project – Target Audience
 
 The target audience in this scenario are the management of Santander Group who are responsible to make the necessary decisions once the factors contributing to the dissatisfaction are identified. The factors can be identified by paying extra attention to the customers identified by the algorithm and tending to their needs.
 
 </br>
-
 ## 4. Data required
 
 The data required to build a model to predict the customer satisfaction is as follows:
 Customer Data: Data pertaining to the customers is provided by the bank for analysis.
 
 </br>
-
 ## 5. Methodology
 
 The following steps were employed to obtain the required results:
 </br>
-
 ### 5.1 Importing Necessary Libraries
 
 The first step is to import the necessary libraries and packages. 
@@ -45,13 +40,11 @@ Sklearn – Machine Learning
 XGBoost – Gradient Boosting
 
 </br>
-
 ### 5.2 Google Drive Pre- requisites
 
 This step involves the authentication steps taken in order to use the dataset stored in Google Drive which can be directly loaded into Google Colab.
 
 </br>
-
 ### 5.3 Pre-Processing
 
 The following preprocessing steps were employed:
@@ -64,7 +57,6 @@ The following preprocessing steps were employed:
 7. Scaling the training splits
 
 </br>
-
 ### 5.4 Machine Learning
 
 The following 2 machine learning algorithms were used:
@@ -72,7 +64,6 @@ The following 2 machine learning algorithms were used:
 2. Gradient Boosting Classifier
 
 </br>
-
 ### 5.5 Analysis
 The analysis involved checking the precision and recall score of above machine learning algorithms in two sections which are as follows:
 
@@ -89,7 +80,6 @@ The models were subjected to Randomized Search Cross Validation and the best hyp
 These parameters were used to train the models again and the results were fed into a dataframe.
 
 </br>
-
 ### 5.6 Metrics for Evaluation
 The following metrics were used for evaluation:
 1. ROC- AUC
@@ -99,7 +89,6 @@ The following metrics were used for evaluation:
 5. Confusion Matrix
 
 </br>
-
 ## 6.Results
 
 Random Forest
@@ -119,19 +108,16 @@ Gradient Boosting
 5. Optimizing the imbalanced dataset similar to the balanced dataset provides best accuracy of around 90.706 % (42% increase) with a decrease in loss (31% decrease) with further decrease in AUC (1% decrease).
 
 </br>
-
 ## 7. Limitations
 
 The following inferences can be more refined if the names of the features were available. This would help in removal of unnecessary features and would further provide more idea into feature importance.
 
 </br>
-
 ## 8. Conclusion
 
 Using Google Collab, the dataset stored in google drive was loaded. Pre-processing steps were carried out and machine learning algorithms were applied. Hyper parameter tuning was carried out to obtain optimum results. The metrics for models were evaluated and compared.
 
 </br>
-
 ## 9. References
 
 Pymnts, “Santander Digital Investment Unit Global Banking Spanish Banks,” [Online]. Available:  https://www.pymnts.com/news/international/2018/santander-digital-investment-unit-global-banking-spanish-banks
