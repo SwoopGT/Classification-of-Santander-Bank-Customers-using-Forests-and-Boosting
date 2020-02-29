@@ -117,8 +117,24 @@ Gradient Boosting
 4. Using the trained model on balanced dataset, to predict the results on imbalanced dataset, the accuracy decreases to about 63.752 % (14% decrease) and loss further increases to 0.639 (23% increase). The AUC is lower in this step as compared to the previous ones (20% decrease).
 5. Optimizing the imbalanced dataset similar to the balanced dataset provides best accuracy of around 90.706 % (42% increase) with a decrease in loss (31% decrease) with further decrease in AUC (1% decrease).
 
+</br>
+
 ## 7. Limitations
+
 The following inferences can be more refined if the names of the features were available. This would help in removal of unnecessary features and would further provide more idea into feature importance.
 
+</br>
+
 ## 8. Conclusion
+
 Using Google Collab, the dataset stored in google drive was loaded. Pre-processing steps were carried out and machine learning algorithms were applied. Hyper parameter tuning was carried out to obtain optimum results. The metrics for models were evaluated and compared.
+
+</br>
+
+## 9. References
+
+Pymnts, “Santander Digital Investment Unit Global Banking Spanish Banks,” [Online]. Available:  https://www.pymnts.com/news/international/2018/santander-digital-investment-unit-global-banking-spanish-banks
+Wikipedia, “Santander Bank,” [Online]. Available: https://en.wikipedia.org/wiki/Santander_Bank
+
+</br>
+
