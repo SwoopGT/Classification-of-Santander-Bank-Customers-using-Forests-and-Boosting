@@ -1,4 +1,4 @@
-# Santander-Customer-Satisfaction
+# Classification-of-Santander-Bank-Customers-using-Forests-and-Boosting
 
 ## 1. Introduction
 
