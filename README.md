@@ -35,7 +35,7 @@ Customer Data: Data pertaining to the customers is provided by the bank for anal
 The following steps were employed to obtain the required results:
 </br>
 
-### 5.1 Importing Necessary Libraries
+#### 5.1 Importing Necessary Libraries
 
 The first step is to import the necessary libraries and packages. 
 Numpy – For numerical calculations
@@ -46,13 +46,13 @@ XGBoost – Gradient Boosting
 
 </br>
 
-### 5.2 Google Drive Pre- requisites
+#### 5.2 Google Drive Pre- requisites
 
 This step involves the authentication steps taken in order to use the dataset stored in Google Drive which can be directly loaded into Google Colab.
 
 </br>
 
-### 5.3 Pre-Processing
+#### 5.3 Pre-Processing
 
 The following preprocessing steps were employed:
 1. Checking the columns (features) present in the dataset
@@ -65,7 +65,7 @@ The following preprocessing steps were employed:
 
 </br>
 
-### 5.4 Machine Learning
+#### 5.4 Machine Learning
 
 The following 2 machine learning algorithms were used:
 1. Random Forest Classifier
@@ -73,7 +73,7 @@ The following 2 machine learning algorithms were used:
 
 </br>
 
-### 5.5 Analysis
+#### 5.5 Analysis
 The analysis involved checking the precision and recall score of above machine learning algorithms in two sections which are as follows:
 
 ##### 1. Section A – Unbalanced dataset
@@ -89,7 +89,7 @@ These parameters were used to train the models again and the results were fed in
 
 </br>
 
-### 5.6 Metrics for Evaluation
+#### 5.6 Metrics for Evaluation
 The following metrics were used for evaluation:
 1. ROC- AUC
 2. Precision
