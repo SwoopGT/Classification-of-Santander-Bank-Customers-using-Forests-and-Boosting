@@ -33,69 +33,70 @@ Customer Data: Data pertaining to the customers is provided by the bank for anal
 ## 5. Methodology
 
 The following steps were employed to obtain the required results:
+</br>
 
-> ### 5.1 Importing Necessary Libraries
+### 5.1 Importing Necessary Libraries
 
-> The first step is to import the necessary libraries and packages. 
-> Numpy – For numerical calculations
-> Matplotlib – plotting and visualization
-> Pandas – Data manipulation
-> Sklearn – Machine Learning
-> XGBoost – Gradient Boosting
+The first step is to import the necessary libraries and packages. 
+Numpy – For numerical calculations
+Matplotlib – plotting and visualization
+Pandas – Data manipulation
+Sklearn – Machine Learning
+XGBoost – Gradient Boosting
 
 </br>
 
-> ### 5.2 Google Drive Pre- requisites
+### 5.2 Google Drive Pre- requisites
 
-> This step involves the authentication steps taken in order to use the dataset stored in Google Drive which can be directly loaded into Google Colab.
-
-</br>
-
-> ### 5.3 Pre-Processing
-
-> The following preprocessing steps were employed:
-> 1. Checking the columns (features) present in the dataset
-> 2. Getting statistical information of the dataset
-> 3. Checking for presence of null values
-> 4. Correcting outliers present in one feature (var3)
-> 5. Checking is the dataset is balanced or unbalanced
-> 6. Performing the train- test split
-> 7. Scaling the training splits
+This step involves the authentication steps taken in order to use the dataset stored in Google Drive which can be directly loaded into Google Colab.
 
 </br>
 
-> ### 5.4 Machine Learning
+### 5.3 Pre-Processing
 
-> The following 2 machine learning algorithms were used:
-> 1. Random Forest Classifier
-> 2. Gradient Boosting Classifier
+The following preprocessing steps were employed:
+1. Checking the columns (features) present in the dataset
+2. Getting statistical information of the dataset
+3. Checking for presence of null values
+4. Correcting outliers present in one feature (var3)
+5. Checking is the dataset is balanced or unbalanced
+6. Performing the train- test split
+7. Scaling the training splits
 
 </br>
 
-> ### 5.5 Analysis
-> The analysis involved checking the precision and recall score of above machine learning algorithms in two sections which are as follows:
+### 5.4 Machine Learning
 
->> #### 1. Section A – Unbalanced dataset
+The following 2 machine learning algorithms were used:
+1. Random Forest Classifier
+2. Gradient Boosting Classifier
 
->> This section involved using the dataset after preprocessing without performing any sampling operation. The two machine learning models were trained and were evaluated and the metrics were calculated.
+</br>
+
+### 5.5 Analysis
+The analysis involved checking the precision and recall score of above machine learning algorithms in two sections which are as follows:
+
+##### 1. Section A – Unbalanced dataset
+
+This section involved using the dataset after preprocessing without performing any sampling operation. The two machine learning models were trained and were evaluated and the metrics were calculated.
 
 
->> #### 2. Section B – Balanced dataset
->> In this section undersampling procedure was performed to balance the dataset (3008 rows). Further, using this balanced dataset the two machine learning models were trained and metrics for evaluation were obtained.
+##### 2. Section B – Balanced dataset
+In this section undersampling procedure was performed to balance the dataset (3008 rows). Further, using this balanced dataset the two machine learning models were trained and metrics for evaluation were obtained.
 
->> ** The models were trained on the balanced dataset and then tested on the unbalanced dataset to gauge the working power of the trained model.
->> The models were subjected to Randomized Search Cross Validation and the best hyper parameters were obtained.
+** The models were trained on the balanced dataset and then tested on the unbalanced dataset to gauge the working power of the trained model.
+The models were subjected to Randomized Search Cross Validation and the best hyper parameters were obtained.
 These parameters were used to train the models again and the results were fed into a dataframe.
 
 </br>
 
-> ### 5.6 Metrics for Evaluation
-> The following metrics were used for evaluation:
-> 1. ROC- AUC
-> 2. Precision
-> 3. Recall
-> 4. Log-loss
-> 5. Confusion Matrix
+### 5.6 Metrics for Evaluation
+The following metrics were used for evaluation:
+1. ROC- AUC
+2. Precision
+3. Recall
+4. Log-loss
+5. Confusion Matrix
 
 </br>
 
