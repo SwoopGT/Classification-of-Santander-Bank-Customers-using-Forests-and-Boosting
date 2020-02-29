@@ -33,7 +33,6 @@ Customer Data: Data pertaining to the customers is provided by the bank for anal
 ## 5. Methodology
 
 The following steps were employed to obtain the required results:
-
 </br>
 
 ### 5.1 Importing Necessary Libraries
