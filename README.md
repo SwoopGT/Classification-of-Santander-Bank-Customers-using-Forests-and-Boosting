@@ -54,7 +54,7 @@ This step involves the authentication steps taken in order to use the dataset st
 
 #### 5.3 Pre-Processing
 
-The following preprocessing steps were employed:
+The preprocessing steps are as follows:
 1. Check the columns (features) present in the dataset
 2. Get statistical information from the dataset
 3. Check for presence of null values
